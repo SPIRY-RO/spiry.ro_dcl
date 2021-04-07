@@ -1,18 +1,22 @@
 {
   "display": {
-    "title": "interactive-text",
-    "favicon": "favicon_asset"
-  },
-  "contact": {
-    "name": "author-name",
-    "email": ""
+    "title": "SPIRY.RO HQ",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
   },
   "owner": "",
+  "contact": {
+    "name": "Spiry",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
   "scene": {
     "parcels": [
-      "135,1"
+      "0,0",
+      "0,1"
     ],
-    "base": "135,1"
+    "base": "0,0"
   },
   "communications": {
     "type": "webrtc",
@@ -22,25 +26,21 @@
     "contentRating": "E",
     "fly": true,
     "voiceEnabled": true,
-    "blacklist": []
+    "blacklist": [],
+    "teleportPosition": ""
   },
-  "requiredPermissions": [],
-  "main": "bin/game.js",
-  "tags": [],
-  "spawnPoints": [
-    {
-      "name": "spawn1",
-      "default": true,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "cameraTarget": {
-        "x": 8,
-        "y": 1,
-        "z": 8
-      }
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "71fcd1bc-0361-4aae-b4ac-5c189bda7987",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 1,
+      "cols": 2
     }
-  ]
+  }
 }
